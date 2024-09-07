@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css"
     />
+    <script type="module" src="./script.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -111,8 +112,25 @@
           </div>
         </div>
       </div>
-      <!-- akhir bagian konten Blog -->
     </div>
+  </div>
+  <!-- Kolom pencarian -->
+  <div class="search-container">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Cari berdasarkan nama..."
+    />
+    </div>
+    <!-- biodata angkatan 2024 -->
+    <center><h3>BIODATA ANGKATAN 2024</h3></center>
+  <!-- ini bagian cardnya sayang -->
+  <main id="friend_list"></main>
+
+  <div class="pagination" style="display: none;" id="pagination-container"></div>
+  <!-- ini footernya sayang -->
+
+
     <script>
       document.getElementById("table").style.width = "100%";
       document.getElementById("h4").style.position = "relative";
